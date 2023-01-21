@@ -105,7 +105,7 @@ body {
   position: absolute;
   width: 100%;
   height: 20%;
-  bottom: 0;
+  bottom: 0vh;
   background: linear-gradient(0deg, rgba(23, 21, 17, 1) 3%, rgba(1, 1, 1, 0) 25%);
 }
 
@@ -428,5 +428,10 @@ footer .create a {
   }
   .hero {
     min-height: 80vh;
+  }
+  .hero::after {
+    content: "";
+    bottom: 19vh;
+    background: linear-gradient(0deg, rgba(23, 21, 17, 1) 4%, rgba(1, 1, 1, 0) 25%);
   }
 }
