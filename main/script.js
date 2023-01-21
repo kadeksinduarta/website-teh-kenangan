@@ -17,3 +17,7 @@ document.addEventListener("click", function (e) {
 document.querySelector("#twitter").onclick = () => {
   alert("saya sindu arta tidak memiliki twitter");
 };
+
+document.querySelector("#buttom").onclick = () => {
+  alert("fitur ini tidak berfungsi, kayang ne cobak bangs*t");
+};
