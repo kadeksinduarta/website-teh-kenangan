@@ -426,4 +426,7 @@ footer .create a {
     font-size: 1.8rem;
     margin-top: 2rem;
   }
+  .hero {
+    min-height: 80vh;
+  }
 }
