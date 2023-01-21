@@ -17,12 +17,15 @@
     <!-- icon title -->
     <link rel="shortcut icon" href="gambar/title.png" type="image/x-icon" />
 
+    <!-- animasi aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- link css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- navbar start -->
-    <nav class="navbar">
+    <nav class="navbar" data-aos="fade-down" data-aos-duration="900">
       <div class="navbar-title">
         <p><span>Teh</span>Kenangan</p>
       </div>
@@ -44,7 +47,7 @@
 
     <!-- hero section start -->
     <section id="home" class="hero">
-      <main>
+      <main data-aos="fade-right" data-aos-duration="900" data-aos-delay="950">
         <h1>Mari Beli Secangkir <span>Teh</span></h1>
         <p>Ayo pesan satu gelas teh manis karena kopi terlalu pahit diminum</p>
         <a href="#">Beli Sekarang</a>
@@ -54,12 +57,12 @@
 
     <!-- tentang kami start -->
     <section id="tentang" class="tentang-kami">
-      <h1>TENTANG KAMI</h1>
+      <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">TENTANG KAMI</h1>
       <div class="row">
-        <div class="about-img">
+        <div class="about-img" data-aos="fade-right" data-aos-duration="1500">
           <img src="gambar/gbrTeh.png" alt="" />
         </div>
-        <div class="about-content">
+        <div class="about-content" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300">
           <h3>Masih ragu dengan teh kami?</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fugit blanditiis perferendis veniam eius velit dolor sit amet consectetur adipisicing elit. Nesciunt nemo .</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nemo voluptatum sapiente nihil illum explicabo debitis non dolor sit amet consectetur adipisicing elit. Nesciunt nemo dolore consequatur similique.</p>
@@ -70,31 +73,33 @@
 
     <!-- menu-menu awal -->
     <section id="menu-menu" class="menu-menu">
-      <h2>Menu Kami</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur laborum, provident vel est ad soluta eum porro ipsum deleniti impedit illum ipsa quas hic?</p>
+      <h2 data-aos="zoom-out" data-aos-duration="1500">Menu Kami</h2>
+      <p data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="550">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur laborum, provident vel est ad soluta eum porro ipsum deleniti impedit illum ipsa quas hic?
+      </p>
 
       <div class="menu-row">
-        <div class="menu-card">
+        <div class="menu-card" data-aos="flip-down" data-aos-duration="1500" data-aos-offset="300">
           <img src="gambar/menu.png" alt="" />
           <h4>- Teh Hngat -</h4>
           <p>IDR 5K</p>
         </div>
-        <div class="menu-card">
+        <div class="menu-card" data-aos="flip-down" data-aos-duration="1500" data-aos-offset="300" data-aos-delay="250">
           <img src="gambar/menu.png" alt="" />
           <h4>- Teh Hngat -</h4>
           <p>IDR 5K</p>
         </div>
-        <div class="menu-card">
+        <div class="menu-card" data-aos="flip-down" data-aos-duration="1500" data-aos-offset="300" data-aos-delay="300">
           <img src="gambar/menu.png" alt="" />
           <h4>- Teh Hngat -</h4>
           <p>IDR 5K</p>
         </div>
-        <div class="menu-card">
+        <div class="menu-card" data-aos="flip-down" data-aos-duration="1500" data-aos-offset="300" data-aos-delay="350">
           <img src="gambar/menu.png" alt="" />
           <h4>- Teh Hngat -</h4>
           <p>IDR 5K</p>
         </div>
-        <div class="menu-card">
+        <div class="menu-card" data-aos="flip-down" data-aos-duration="1500" data-aos-offset="200" data-aos-delay="400">
           <img src="gambar/menu.png" alt="" />
           <h4>- Teh Hngat -</h4>
           <p>IDR 5K</p>
@@ -105,10 +110,10 @@
 
     <!-- contact awal -->
     <secttion id="contact" class="contact">
-      <h2>Kontak Kami</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo numquam est itaque facere, velit quia est itaque facere, velit quia!</p>
+      <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Kontak Kami</h2>
+      <p data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="550">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo numquam est itaque facere, velit quia est itaque facere, velit quia!</p>
 
-      <div class="contact-row">
+      <div class="contact-row" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1436.3567531501928!2d115.30654441958627!3d-8.404101428270753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1674144858808!5m2!1sid!2sid"
           allowfullscreen=""
@@ -161,6 +166,12 @@
     <!-- script feather icon -->
     <script>
       feather.replace();
+    </script>
+
+    <!-- script animasi aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 
     <!-- link javascript -->
